@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TeleApp</string>
+    <string name="callmeback_btn">Callmeback</string>
+    <string name="phonenumber">Phone No.</string>
+
+</resources>
