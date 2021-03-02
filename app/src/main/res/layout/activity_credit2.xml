@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Credit2Activity">
 
+    <EditText
+        android:id="@+id/credit_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the amount you want to be credited"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Credit"
+        app:layout_constraintEnd_toEndOf="@+id/credit_amount"
+        app:layout_constraintStart_toStartOf="@+id/credit_amount"
+        app:layout_constraintTop_toBottomOf="@+id/credit_amount" />
 </androidx.constraintlayout.widget.ConstraintLayout>

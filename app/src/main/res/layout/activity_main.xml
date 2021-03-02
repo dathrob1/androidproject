@@ -10,63 +10,63 @@
         android:id="@+id/recharge_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:drawableLeft="@mipmap/recharge"
+        android:onClick="torecharge"
         android:padding="30dp"
-        android:text="RECHARGE"
+        android:text="@string/Recharge"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="torecharge"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/check_balance_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="80dp"
+        android:drawableLeft="@mipmap/balance"
+        android:onClick="tocheckbalance"
         android:padding="30dp"
-        android:text="CHECK BALANCE"
+        android:text="@string/balance"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="tocheckbalance"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/balance_transfer_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="243dp"
+        android:layout_height="162dp"
         android:layout_marginTop="140dp"
+        android:drawableLeft="@mipmap/transfer"
+        android:onClick="tobalancetransfer"
         android:padding="30dp"
-        android:text="BALANCE TRANSFER"
+        android:text="@string/transfer"
         app:layout_constraintEnd_toEndOf="@+id/check_balance_btn"
         app:layout_constraintStart_toStartOf="@+id/check_balance_btn"
-        app:layout_constraintTop_toTopOf="@+id/check_balance_btn"
-        android:onClick="tobalancetransfer"/>
+        app:layout_constraintTop_toTopOf="@+id/check_balance_btn" />
 
     <Button
         android:id="@+id/call_me_back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="4dp"
+        android:drawableLeft="@mipmap/callmeback"
+        android:onClick="tocallmeback"
         android:padding="30dp"
-        android:text="CALL ME BACK"
+        android:text="@string/callmeback_btn"
         app:layout_constraintEnd_toEndOf="@+id/recharge_btn"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="@+id/recharge_btn"
-        app:layout_constraintTop_toBottomOf="@+id/recharge_btn"
-        android:onClick="tocallmeback"/>
+        app:layout_constraintTop_toBottomOf="@+id/recharge_btn" />
 
     <Button
         android:id="@+id/credit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="288dp"
+        android:layout_width="228dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="344dp"
+        android:drawableLeft="@mipmap/credit"
+        android:onClick="tocredit"
         android:padding="30dp"
-        android:text="CREDIT"
+        android:text="@string/Credit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="tocredit"/>
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

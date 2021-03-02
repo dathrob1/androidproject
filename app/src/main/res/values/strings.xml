@@ -2,5 +2,10 @@
     <string name="app_name">TeleApp</string>
     <string name="callmeback_btn">Callmeback</string>
     <string name="phonenumber">Phone No.</string>
+    <string name="Credit">Credit</string>
+    <string name="Recharge">Recharge</string>
+    <string name="Qr">Qr</string>
+    <string name="transfer">transfer</string>
+    <string name="balance">check Balance</string>
 
 </resources>

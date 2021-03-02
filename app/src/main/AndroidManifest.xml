@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.teleapp">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -16,6 +17,10 @@
         <activity android:name=".Credit2Activity" />
         <activity android:name=".BalancetransferActivity" />
         <activity android:name=".RechargeActivity" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

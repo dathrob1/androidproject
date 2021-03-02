@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun torecharge(view: View){
-        val intent = Intent(this, scanner::class.java)
+        val intent = Intent(this, RechargeActivity::class.java)
         startActivity(intent)
     }
     fun tocheckbalance(view: View){
